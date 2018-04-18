@@ -7,7 +7,6 @@
     "dev": "nuxt"
   },
   "dependencies": {
-    "nuxt": "^1.4.0",
-    "vue-hoc": "^0.4.1"
+    "nuxt": "^1.4.0"
   }
 }

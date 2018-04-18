@@ -5434,10 +5434,6 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-hoc@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/vue-hoc/-/vue-hoc-0.4.1.tgz#dd444eb83edbb3cbd44f02c922bfabc70f7e78f3"
-
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
