@@ -1,0 +1,13 @@
+{
+  "name": "vue-hoc-bug-reproduce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^1.4.0",
+    "vue-hoc": "^0.4.1"
+  }
+}
