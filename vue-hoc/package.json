@@ -1,0 +1,50 @@
+{
+  "name": "vue-hoc-repo",
+  "version": "0.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "pre": "mono-semantic --loglevel info --debug false pre",
+    "publish": "mono-semantic --loglevel info --debug false publish",
+    "post": "mono-semantic --loglevel info --debug false post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackmellis/vue-hoc.git"
+  },
+  "author": "Jack Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackmellis/vue-hoc/issues"
+  },
+  "homepage": "https://github.com/jackmellis/vue-hoc#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-env": "^3.2.5",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.10.0",
+    "inspect-process": "^0.5.0",
+    "lerna": "^2.10.0",
+    "module-alias": "^2.0.6",
+    "mono-semantic": "^0.1.0-beta.3",
+    "nyc": "^11.6.0",
+    "require-extension-hooks": "^0.3.2",
+    "require-extension-hooks-babel": "^0.1.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "sinon": "^4.5.0",
+    "vue": "^2.5.16",
+    "vuenit": "^1.1.2",
+    "vuex": "^3.0.1"
+  }
+}
